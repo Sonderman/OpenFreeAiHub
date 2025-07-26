@@ -1,0 +1,80 @@
+name: freeaihub
+description: "FreeAI Hub"
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+
+  # -------------------- State Management & Storage --------------------
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  hive_ce: ^2.11.3
+
+  # -------------------- UI Components & Helpers --------------------
+  sizer: ^3.0.5
+  flutter_easyloading: ^3.0.5
+  auto_size_text: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+  cupertino_icons: ^1.0.8
+  flex_color_scheme: ^8.2.0
+  flutter_html: ^3.0.0
+  webviewx_plus: ^0.5.1
+
+  # -------------------- Media & File Handling --------------------
+  just_audio: ^0.10.1
+  audio_waveforms: ^1.3.0
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  image_gallery_saver_plus: ^4.0.1
+  archive: ^3.6.1
+  csv: ^6.0.0
+  universal_file_viewer: ^0.1.2
+
+  # -------------------- Network & Utilities --------------------
+  worker_manager: ^7.2.6
+  dio: ^5.8.0+1
+  html: ^0.15.6
+  url_launcher: ^6.2.3
+  cached_network_image: ^3.4.1
+  share_plus: ^11.0.0
+  path_provider: ^2.1.5
+  internet_connection_checker_plus: ^2.7.1
+  uuid: ^4.5.1
+  permission_handler: ^12.0.0+1
+  flutter_tts: ^4.2.2
+  markdown: ^7.3.0
+  file_picker: ^10.1.9
+  syncfusion_flutter_pdf: ^29.2.10
+  syncfusion_flutter_pdfviewer: ^29.2.10
+
+  # -------------------- App Features & Services --------------------
+  gpt_markdown: ^1.1.0
+  tiktoken_tokenizer_gpt4o_o1: ^1.2.1
+  media_store_plus: ^0.1.3
+  intl: ^0.20.2
+
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  webview_flutter_android: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.6.0
+  hive_ce_generator: ^1.9.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/model/
+    - assets/icons/
+
+

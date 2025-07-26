@@ -6,7 +6,9 @@
 *.swp
 .buildlog/
 .history
+.cursor
 
+lib/env.dart
 
 
 # Flutter repo-specific
