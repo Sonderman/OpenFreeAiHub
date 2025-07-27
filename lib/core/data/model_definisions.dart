@@ -24,10 +24,9 @@ class ModelDefinitions {
     //"llama_4_maverick": llama4Maverick,
     //"qwen2.5_vl_32b_instruct": qwen2_5Vl_32bInstruct,
     "gemma_3_27b": gemma_3_27b,
-
-    ///"mistral_small_3.2_24b_instruct_2506": mistralSmall_3_2_24bInstruct_2506,
+    //"mistral_small_3.2_24b_instruct_2506": mistralSmall_3_2_24bInstruct_2506,
     //"hidream": hidreamI1,
-    //"pollinations_ai_image": pollinationsAiImage,
+    "pollinations_ai_image": pollinationsAiImage,
     //"orpheus_tts": orpheusTts,
   };
 

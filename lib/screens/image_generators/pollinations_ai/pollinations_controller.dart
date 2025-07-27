@@ -9,8 +9,7 @@ import 'package:freeaihub/core/app_configs.dart';
 import 'package:freeaihub/core/data/model_definisions.dart';
 import 'package:freeaihub/core/models/ai/ai_model.dart'; // AI model definition
 import 'package:freeaihub/core/global/services/ai_client_service.dart'; // AI service client
-import 'package:freeaihub/core/global/services/media_library_service.dart'; // Media library service
-
+import 'package:freeaihub/core/global/services/media_library_service.dart'; // Media library serviced
 import 'package:get/get.dart';
 import 'package:image_gallery_saver_plus/image_gallery_saver_plus.dart'; // Image saving
 import 'package:path_provider/path_provider.dart'; // Temporary directory
@@ -37,7 +36,7 @@ class PollinationsController extends GetxController {
 
   // Pollinations-specific models available
   final availableModels = [
-    'flux', 'turbo',
+    'kontext', 'flux', 'turbo',
     //'gptimage'
   ].obs;
 

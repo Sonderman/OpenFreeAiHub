@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 
 const String appName = 'FreeAI Hub';
 //Check before release
-const String appVersion = '0.1.0';
+const String appVersion = '0.1.1';
 const bool isDebugMod = kDebugMode ? true : false;
 const bool showDebugLogs = true;
 const bool enableExperimentalFeatures = kDebugMode;

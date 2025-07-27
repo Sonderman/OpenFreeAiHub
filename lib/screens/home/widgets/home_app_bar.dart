@@ -171,7 +171,7 @@ class HomeSliverAppBar extends StatelessWidget {
     return IconButton(
       icon: const Icon(Icons.delete),
       onPressed: () {
-        GetStorage().erase();
+        GetStorage("Preferences").erase();
         Get.snackbar(
           'Debug',
           'GetStorage data cleared',
