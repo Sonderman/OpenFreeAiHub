@@ -30,13 +30,14 @@ The app serves as a hub for free AI tools, allowing users to interact with diffe
 
 Here are some screenshots of the FreeAI Hub application:
 
-![Screenshot 1](media/screenshots/1.png)
-
-![Screenshot 2](media/screenshots/2.png)
-
-![Screenshot 3](media/screenshots/3.png)
-
-![Screenshot 4](media/screenshots/4.png)
+<table>
+  <tr>
+    <td><img src="media/screenshots/1.png" alt="Screenshot 1" height="300"/></td>
+    <td><img src="media/screenshots/2.png" alt="Screenshot 2" height="300"/></td>
+    <td><img src="media/screenshots/3.png" alt="Screenshot 3" height="300"/></td>
+    <td><img src="media/screenshots/4.png" alt="Screenshot 4" height="300"/></td>
+  </tr>
+</table>
 
 ## Installation
 
